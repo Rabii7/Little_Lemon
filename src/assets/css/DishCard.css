@@ -1,0 +1,44 @@
+.article-width {
+  width: 30%;
+  display: inline-block;
+}
+.img-card {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.position-relative {
+  position: relative;
+  width: 100%;
+  padding: 12px;
+  background: #edefee;
+}
+.price-absolute {
+  position: absolute;
+  right: 12px;
+  color: #ee9972;
+  font-size: 16px;
+  font-weight: 700;
+}
+.dish-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+.dish-description {
+  margin-top: 30px;
+  height: 155px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+}
+.dish-delivery {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .article-width {
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,15 @@
+@font-face {
+  src: url("./MarkaziText-VariableFont_wght.ttf");
+  font-family: "Markazi Text";
+}
+.App {
+}
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.mtfooter {
+  margin-top: 107px;
+  background: rgb(73 94 87 / 80%);
+  color: #bd9805;
+}

@@ -1,0 +1,67 @@
+.img-restaurant-food {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+  right: 8px;
+  top: 13px;
+}
+.bg-introduction {
+  background: #495e57;
+}
+.p-introdution {
+  padding: 20px 0;
+}
+.title {
+  color: #bd9805;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 1.5px;
+}
+.sub-title {
+  color: #deefee;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1.1px;
+}
+.description {
+  width: 89%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #deefee;
+  letter-spacing: 0.5px;
+}
+.link1 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .p-absolute {
+    left: 50%;
+    top: 50%;
+    right: auto;
+    transform: translate(-50%, 5px);
+  }
+  .mt {
+    margin-top: 320px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .p-absolute {
+    left: 50%;
+    top: 50%;
+    right: auto;
+    transform: translate(-50%, 5px);
+  }
+  .mt {
+    margin-top: 320px;
+  }
+}

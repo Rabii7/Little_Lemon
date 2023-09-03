@@ -1,0 +1,26 @@
+.stars {
+  width: 100%;
+}
+.userimg {
+  width: 100%;
+}
+.username {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+.userthinking {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.thinking-container {
+  width: 23%;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .thinking-container {
+    width: 100%;
+    display: block;
+  }
+}

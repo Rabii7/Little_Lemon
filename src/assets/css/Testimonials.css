@@ -1,0 +1,29 @@
+.testimonials {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 70px !important;
+  color: #bd9805;
+}
+.mttestimonials {
+  margin-top: 107px;
+}
+.bg-testimonials {
+  background: #edefee;
+  /* animation: translateY 1s; */
+}
+.mrginnertop {
+  margin-top: 70px !important;
+}
+.mrgbottom {
+  margin-bottom: 70px;
+}
+
+/* @keyframes translateY {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+} */
