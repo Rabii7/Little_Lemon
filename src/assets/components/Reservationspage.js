@@ -4,8 +4,8 @@ import BookingForm from "./BookingForm";
 import { useNavigate } from "react-router-dom";
 function Reservations(props) {
   const navigate = useNavigate();
-  function submitForm() {
-    if (props.submitForm()) {
+  function submitForm(data) {
+    if (props.submitForm(data)) {
       navigate("/confirmedbooking");
     }
   }
