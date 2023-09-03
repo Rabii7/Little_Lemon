@@ -17,7 +17,7 @@ function BookingForm(props) {
   }, [daTe, time, number, occasion]);
   const handleSubmit = (e) => {
     e.preventDefault();
-    props.submitForm();
+    props.submitForm({daTe,time, number, occasion});
   };
   const handleDateTime = (date) => {
     setDaTe(date);
